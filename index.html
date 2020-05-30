@@ -38,7 +38,7 @@
             if( countdown<0 ){
                 document.querySelector('#timer').innerHTML = 
                     `<img src='https://image.flaticon.com/icons/svg/100/100291.svg' width=64 /> Time up!`;
-                clearInteval( timer );
+                clearInterval( timer );
             } else {
                 document.querySelector('#timer').innerHTML = 
                     `${countdown}s left!`;
